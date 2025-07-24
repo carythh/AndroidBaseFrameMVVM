@@ -45,7 +45,7 @@ object DependencyConfig {
         const val RetrofitConverterGson = "2.9.0"           // Retrofit Gson 转换器
         const val Gson = "2.8.7"                            // Gson
         const val MMKV = "1.2.9"                            // 腾讯 MMKV 替代SP
-        const val AutoSize = "1.2.1"                        // 屏幕适配
+        const val AutoSize = "v1.2.1"                        // 屏幕适配
         const val ARoute = "1.5.1"                          // 阿里路由
         const val ARouteCompiler = "1.5.1"                  // 阿里路由 APT
         const val RecyclerViewAdapter = "3.0.4"             // RecyclerViewAdapter
@@ -138,7 +138,7 @@ object DependencyConfig {
             "com.squareup.retrofit2:converter-gson:${Version.RetrofitConverterGson}"
         const val Gson = "com.google.code.gson:gson:${Version.Gson}"
         const val MMKV = "com.tencent:mmkv-static:${Version.MMKV}"
-        const val AutoSize = "me.jessyan:autosize:${Version.AutoSize}"
+        const val AutoSize = "com.github.JessYanCoding:AndroidAutoSize:${Version.AutoSize}"
         const val ARoute = "com.alibaba:arouter-api:${Version.ARoute}"
         const val ARouteCompiler = "com.alibaba:arouter-compiler:${Version.ARouteCompiler}"
         const val RecyclerViewAdapter =

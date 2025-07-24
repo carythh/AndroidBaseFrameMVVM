@@ -4,6 +4,12 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         maven { url = java.net.URI.create("https://maven.google.com") }
+        maven { url  = java.net.URI.create("https://jitpack.io")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/central")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/public")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/google")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/gradle-plugin")}
+
     }
 }
 
@@ -14,6 +20,11 @@ dependencyResolutionManagement {
         mavenCentral()
         gradlePluginPortal()
         maven { url = java.net.URI.create("https://maven.google.com") }
+        maven { url  = java.net.URI.create("https://jitpack.io")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/central")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/public")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/google")}
+        maven { url  = java.net.URI.create("https://maven.aliyun.com/repository/gradle-plugin")}
     }
 }
 
